@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+	
+	<style>
+		*{
+			box-sizing: border-box;
+		
+
+		}
+		body{
+			
+			position: relative;
+			background-color: black;
+			
+			padding: 5px;
+			margin: 2vw;
+			background-image: url("C:\Users\Cinni\Desktop\htmlpractice\bi.jpg")
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+
+		}
+		.header{
+			position: -webkit-sticky;
+			position: sticky;
+			background-color: rgba(150,60,50,0.5);
+			text-decoration-color: black;
+			font-weight: bold;
+			height:4vw;
+			width:auto;
+			top: 0px;
+			
+			
+		}
+		.content{ 
+			/*text-align: right;*/
+			font-size: 2vw;
+		    float: left;
+			color:black;
+			padding: 10px 5px 10px 10px;
+			margin-left: 20px;
+		}
+		#skill li{
+			
+			font-size: 2vw;
+			font-family: sans-serif;
+			padding: 3px;
+			height: 3vw;
+			color: tomato;
+            
+		}
+		.mySelf{
+			margin: auto;
+			font-family: courier;
+			font-size: 2vw;
+			color:white;
+			/*background-color: pink;*/
+		}
+
+        a:link,a:visited{
+        	text-decoration:none;
+        	cursor: pointer; 
+        }
+		a:hover,a:active{
+			height: 3vw;
+			background-color: red;
+			color: purple;
+			/*border: 1px solid black;*/
+
+
+		}
+		.lnk{
+			color: black;
+			position: relative;
+			top:auto;
+			right: 0px;
+			padding-bottom: 2vw;
+		}
+		.footer{
+			height:40vw;
+			position: relative;
+			float: right;
+			color: white;
+			font-size: 2vw;
+			padding-right: 4vw;
+			padding:4vw; 
+            border: 1px solid white;
+
+		}
+		.cnt{
+            padding-top: 2vw;
+            padding-right: 6vw;
+		}
+
+	</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial scale=1.0">
+<title>Portfolio</title>
+</head>
+<body>
+	<h1 style="text-align: center;left: 20vw;background-color:rgba(150,55,58,0.5);;color:white;height: auto;">PORTFOLIO</h1>
+<!-- header  -->
+<div class="header">
+	<ul style="list-style: none">
+		<li class="content"><a href="#about" class="lnk" >about</a></li>
+		<li class="content" ><a href="#skill" class="lnk">skills</a></li>
+		
+		<li class="content"><a href="#hobbies" class="lnk" >hobbies</a></li>
+	</ul>
+	
+</div>
+<!--  About myself -->
+<div class="mySelf" id="about">
+	<p style="color: pink">Brief introduction about me:</p>
+	<img src="Profile.jpg" style="height:10vw;margin: 50px;top: 2vw;" alt="myimage">
+	<p><q style="font-size: 2vw left:2vw"><b>CHIRAG AGRAWAL</b><br><span style="padding: 3vw"><b> 2nd year</b></span><br><span style="padding: 3vw"><b>CS brach</b></span></q></p>
+	<blockquote>
+		<i> I am <span style="font-size: 3vw;"><b>Chirag Agrawal</b></span>. I am from Chandausi which is near to Sambhal and i belong to a middle class family.I have done my class 12th for R.R.K. Sr.Sec. School.And i have got <span style="font-size:3vw;color:white;">94%</span>. I am pursuing my graduation from AKGEC </i>  
+	</blockquote>
+</div>
+<!--  skills description -->
+<div id="skill" >
+	<p style="font-size: 3vw;color: red">Skills:</p>
+
+	<ol >
+		<div style="height: 15vw; width: 50vw;">
+		<li >
+			C++
+		</li>
+		<img src="C++.jpg" style="float: right;">
+		</div>
+		<div style="height: 22vw; width: 50vw;">
+		<li>
+			C
+		</li>
+		<img src="c.jpg" style="float: right;">
+	</div>
+	<div style="height: 18vw; width: 50vw;">
+		<li>
+			Python
+		</li>
+		<img src="python.jpg" style="float: right;">
+	</div>
+	<div style="height: 18vw; width: 50vw;">
+		<li>
+			Html
+		</li>
+		<img src="html.jpg" style="float: right;">
+	</div>
+	<div style="height: 27vw;width: 50vw;">
+		<li>
+			CSS(Cascading Style Sheet)
+		</li>
+		<img src="css.jpg" style="float: right;">
+	</div>
+	<div style="height: 22vw; width: 50vw;">
+		<li>
+			Js
+		</li>
+		<img src="js.jpg" style="float: right;">
+	</div>
+	<div style="height: 15vw; width: 50vw;">
+		<li>
+			Git&Github
+		</li>
+		<img src="git.jpg" style="float: right;">
+		</div>
+	</ol>
+</div>
+<div>
+	<p style="font-size: 2vw;color: green;padding-top: 3vw;">Certificates i have:</p>
+	<ol type="i" style="font-size: 2vw;color: red;padding: 2vw"><li style="padding: 2vw"><a href="COPYthon.jpg" target="_blank" alt="can't load" style="color: yellow;font-size: 2vw;">Crash Course On Python</a></li>
+         <li style="padding: 2vw"><a href="introductiontohtml.jpg" target="_blank" class="lnk" style="color: yellow;font-size: 2vw;font-family: serif;">Introduction To HTML</a></li>
+         <li style="padding: 2vw"><a href="Programmingforeverybody.jpg" target="_blank" class="lnk" style="color: yellow;font-size: 2vw;">Programing For Every Body(with python)</a></li>
+         <li style="padding: 2vw"><a href="ts.jpg"  target="_blank" class="lnk" style="color: yellow;font-size: 2vw;">Technical Support And Fundamentals</a></li>
+	</ol>
+</div>
+<!-- hobbies-->
+<div id="hobbies">
+	<p style="font-size: 2vw;color: blue;font-family: serif;" >My hobbies</p>
+	<p style="font-size: 2vw;color: brown;font-style: initial;">I love to play cricket,badminton,vollyball,kabaddi. And i like to listen to songs during tired &#128565; and when i feels good &#128535; and i love to watch thriller movies &#129488;  </p>
+</div>
+<!-- footer -->
+<div class="footer">
+	Contact me
+
+	<br>
+	<p class="cnt">mail me at:<a href="mailto:agarwalchirag112@gmail.com" style="color: blue;text-decoration: none"><b>chirag@gmail.com</b></a></p>
+	<p class="cnt">contact no(whatsapp no):<span style="border: 1px solid blue">6398356528</p>
+		<p class="cnt">Lindkin profile:<a href="http://www.linkedin.com/in/chirag-agrawal-32b5a31a3" target="_blank">here</a></p>
+		<p class="cnt">you can follow me on instagram:<a href="https://www.instagram.com/invites/contact/?i=1m2qaw2eudl1s&utm_content=284j26e" target="_blank">here</a></p>
+
+<!--	<div style="height: 20vw;position: relative;">
+		<p style="font-size: 2vw;color: white;float: right;padding-top: 2vw; ">mail me at:<a href="mailto:agarwalchirag112@gmail.com" style="color: blue;text-decoration: none"><b>chirag@gmail.com</b></a></p>
+		
+		
+	</div>-->
+
+</div>
+
+ 
+</body>
+</html>
