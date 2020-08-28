@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
 	
 	<style>
 		*{
@@ -34,12 +36,13 @@
 			
 		}
 		.content{ 
-			/*text-align: right;*/
+			position: relative;
+			right: 3vw;
 			font-size: 2vw;
 		    float: left;
 			color:black;
 			padding: 10px 5px 10px 10px;
-			margin-left: 20px;
+		margin-left: 20px;
 		}
 		#skill li{
 			
@@ -63,8 +66,6 @@
         	cursor: pointer; 
         }
 		a:hover,a:active{
-			height: 3vw;
-			background-color: red;
 			color: purple;
 			/*border: 1px solid black;*/
 
@@ -78,19 +79,37 @@
 			padding-bottom: 2vw;
 		}
 		.footer{
+            background-image: url(contactimg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
 			height:40vw;
+			width: 100%;
 			position: relative;
-			float: right;
-			color: white;
+			text-align-last: center;
+			color: red;
+			font-weight: bold;
 			font-size: 2vw;
 			padding-right: 4vw;
 			padding:4vw; 
-            border: 1px solid white;
-
+            border: 1px solid black;
+            font-family: courierr;
+            
 		}
 		.cnt{
             padding-top: 2vw;
             padding-right: 6vw;
+            
+
+            
+		}
+		#hobbies{
+			background-image: url("hobbies.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: white;
+			height: 20vw;
+			margin-bottom: 5vw;
+			font-size: 4vw;
 		}
 
 	</style>
@@ -99,6 +118,7 @@
 <title>Portfolio</title>
 </head>
 <body>
+	<blockquote>
 	<h1 style="text-align: center;left: 20vw;background-color:rgba(150,55,58,0.5);;color:white;height: auto;">PORTFOLIO</h1>
 <!-- header  -->
 <div class="header">
@@ -112,6 +132,7 @@
 </div>
 <!--  About myself -->
 <div class="mySelf" id="about">
+	<img src="funy.jpg" style="float: right;">
 	<p style="color: pink">Brief introduction about me:</p>
 	<img src="Profile.jpg" style="height:10vw;margin: 50px;top: 2vw;" alt="myimage">
 	<p><q style="font-size: 2vw left:2vw"><b>CHIRAG AGRAWAL</b><br><span style="padding: 3vw"><b> 2nd year</b></span><br><span style="padding: 3vw"><b>CS brach</b></span></q></p>
@@ -168,8 +189,11 @@
 		</div>
 	</ol>
 </div>
-<div>
+<!-- certificates-->
+<div style="height: 50vw ;" >
+	<img src="link.jpg" style="float: right;padding-top: 7vw;">
 	<p style="font-size: 2vw;color: green;padding-top: 3vw;">Certificates i have:</p>
+	
 	<ol type="i" style="font-size: 2vw;color: red;padding: 2vw"><li style="padding: 2vw"><a href="COPYthon.jpg" target="_blank" alt="can't load" style="color: yellow;font-size: 2vw;">Crash Course On Python</a></li>
          <li style="padding: 2vw"><a href="introductiontohtml.jpg" target="_blank" class="lnk" style="color: yellow;font-size: 2vw;font-family: serif;">Introduction To HTML</a></li>
          <li style="padding: 2vw"><a href="Programmingforeverybody.jpg" target="_blank" class="lnk" style="color: yellow;font-size: 2vw;">Programing For Every Body(with python)</a></li>
@@ -178,8 +202,8 @@
 </div>
 <!-- hobbies-->
 <div id="hobbies">
-	<p style="font-size: 2vw;color: blue;font-family: serif;" >My hobbies</p>
-	<p style="font-size: 2vw;color: brown;font-style: initial;">I love to play cricket,badminton,vollyball,kabaddi. And i like to listen to songs during tired &#128565; and when i feels good &#128535; and i love to watch thriller movies &#129488;  </p>
+	<p style="font-size: 5vw;font-family: serif;" >My hobbies</p>
+	<p ><blockquote style="font-size: 2vw;font-family: : courier;font-weight: bold;"> I love to play cricket,badminton,vollyball,kabaddi. And i like to listen to songs during tired &#128565; and when i feels good &#128535; and i love to watch thriller movies &#129488;</blockquote>  </p>
 </div>
 <!-- footer -->
 <div class="footer">
@@ -187,7 +211,7 @@
 
 	<br>
 	<p class="cnt">mail me at:<a href="mailto:agarwalchirag112@gmail.com" style="color: blue;text-decoration: none"><b>chirag@gmail.com</b></a></p>
-	<p class="cnt">contact no(whatsapp no):<span style="border: 1px solid blue">6398356528</p>
+	<p class="cnt">contact no(whatsapp no):<span style="color: blue">6398356528</span></p>
 		<p class="cnt">Lindkin profile:<a href="http://www.linkedin.com/in/chirag-agrawal-32b5a31a3" target="_blank">here</a></p>
 		<p class="cnt">you can follow me on instagram:<a href="https://www.instagram.com/invites/contact/?i=1m2qaw2eudl1s&utm_content=284j26e" target="_blank">here</a></p>
 
@@ -199,6 +223,6 @@
 
 </div>
 
- 
+ </blockquote>
 </body>
 </html>
