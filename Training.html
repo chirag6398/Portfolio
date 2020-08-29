@@ -52,6 +52,14 @@
 			background-color: #111;
 
 		}
+		#skill{
+			background-image:url("skill.jpg") ;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			box-shadow: 4vw 4vw 1vw navy;
+		}
+
 		
 		#skill li{
 			
@@ -111,7 +119,24 @@
 			margin-bottom: 5vw;
 			font-size: 4vw;
 		}
+        	div {
+           width: auto;
+            height: auto;
+  
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+  
+            animation-direction: alternate;  
+}
 
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:500px; top:0px;}
+  50%  { left:500px; top:500px;}
+  75%  { left:0px; top:500px;}
+  100% { left:0px; top:0px;}
+}
 	</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial scale=1.0">
@@ -132,9 +157,9 @@
 </div>
 <!--  About myself -->
 <div class="mySelf" id="about">
-	<img src="funy.jpg" style="float: right;">
+	<img src="funy.jpg" style="float: right;box-shadow: 4vw 4vw 1vw white;">
 	<p style="color: pink">Brief introduction about me:</p>
-	<img src="Profile.jpg" style="height:10vw;margin: 50px;top: 2vw;" alt="myimage">
+	<img src="photo.jpg" style="height:20vw;margin: 50px;top: 2vw;box-shadow: 3vw 3vw 1vw white;" alt="myimage">
 	<p><q style="font-size: 2vw left:2vw"><b>CHIRAG AGRAWAL</b><br><span style="padding: 3vw"><b> 2nd year</b></span><br><span style="padding: 3vw"><b>CS brach</b></span></q></p>
 	<blockquote>
 		<i> I am <span style="font-size: 3vw;"><b>Chirag Agrawal</b></span>. I am from Chandausi which is near to Sambhal and i belong to a middle class family.I have done my class 12th for R.R.K. Sr.Sec. School.And i have got <span style="font-size:3vw;color:white;">94%</span>. I am pursuing my graduation from AKGEC </i>  
@@ -142,7 +167,7 @@
 </div>
 <!--  skills description -->
 <div id="skill" >
-	<p style="font-size: 3vw;color: red">Skills:</p>
+	<p style="font-size: 4vw;color: red; text-shadow: 4px 4px 0px brown;">Skills:</p>
 
 	<ol >
 		<div style="height: 15vw; width: 50vw;">
@@ -191,8 +216,8 @@
 </div>
 <!-- certificates-->
 <div style="height: 50vw ;" >
-	<img src="link.jpg" style="float: right;padding-top: 7vw;">
-	<p style="font-size: 2vw;color: green;padding-top: 3vw;">Certificates i have:</p>
+	<img src="link.jpg" style="float: right;padding-top: 7vw;box-shadow: 3vw 2vw 1vw teal">
+	<p style="font-size: 4vw;color: green;padding-top: 3vw;text-shadow: 4px 4px 0px brown;">Certificates i have:</p>
 	
 	<ol type="i" style="font-size: 2vw;color: red;padding: 2vw"><li style="padding: 2vw"><a href="COPYthon.jpg" target="_blank" class="lnk1" alt="can't load" style="font-size: 2vw;">Crash Course On Python</a></li>
          <li style="padding: 2vw"><a href="introductiontohtml.jpg" target="_blank" class="lnk1" style="font-size: 2vw;font-family: serif;">Introduction To HTML</a></li>
