@@ -44,6 +44,13 @@
 			padding: 10px 5px 10px 10px;
 		margin-left: 20px;
 		}
+		#skill{
+			background-image:url("skill.jpg") ;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			box-shadow: 4vw 4vw 0px navy;
+		}
 		#skill li{
 			
 			font-size: 2vw;
@@ -116,6 +123,24 @@
 			margin-bottom: 5vw;
 			font-size: 4vw;
 		}
+		div {
+  width: auto;
+  height: auto;
+  
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  
+  animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
 
 	</style>
 <meta charset="utf-8">
@@ -123,6 +148,7 @@
 <title>Portfolio</title>
 </head>
 <body>
+	<div></div>
 	<blockquote>
 	<h1 style="text-align: center;left: 20vw;background-color:rgba(150,55,58,0.5);;color:white;height: auto;">PORTFOLIO</h1>
 <!-- header  -->
@@ -140,7 +166,7 @@
 	<img src="funy.jpg" style="float: right;">
 	<p style="color: pink">Brief introduction about me:</p>
 	<img src="Profile.jpg" style="height:10vw;margin: 50px;top: 2vw;" alt="myimage">
-	<p><q style="font-size: 2vw left:2vw"><b>CHIRAG AGRAWAL</b><br><span style="padding: 3vw"><b>2nd year</b></span><br><span style="padding: 3vw"><b>CS brach</b></span></q></p>
+	<div><p><q style="font-size: 2vw left:2vw"><b>CHIRAG AGRAWAL</b><br><span style="padding: 3vw"><b>2nd year</b></span><br><span style="padding: 3vw"><b>CS brach</b></span></q></p></div>
 	<blockquote>
 		<i> I am <span style="font-size: 3vw;"><b>Chirag Agrawal</b></span>. I am from Chandausi which is near to Sambhal .I have done my class 12th for R.R.K. Sr.Sec. School.And i have got <span style="font-size:3vw;color:white;">94%</span>. I am pursuing my graduation from AKGEC.Currently i am in btech 2nd year.<br><br>Now i am learning Front end development. </i>  
 	</blockquote>
@@ -186,7 +212,7 @@
 		</li>
 		<img src="js.jpg" style="float: right;">
 	</div>
-	<div style="height: 15vw; width: 50vw;">
+	<div style="height: 20vw; width: 50vw;">
 		<li>
 			Git&Github
 		</li>
